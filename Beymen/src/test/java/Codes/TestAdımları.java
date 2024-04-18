@@ -28,7 +28,7 @@ public class TestAdımları extends BaseTest {
     clickElement(genderWoman);
     elementVisible(beymenLogo,2);
     elementVisible(productButton,2);
-    waitBySeconds(5);
+    waitBySeconds(4);
     searchAndWriteProductFromExcel("./product.xlsx",  1, 1);
     clickElement(deleteText);
     waitBySeconds(5);
